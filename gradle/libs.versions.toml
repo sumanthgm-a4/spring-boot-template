@@ -86,3 +86,43 @@ jjwt-api = { module = "io.jsonwebtoken:jjwt-api", version.ref = "jjwt" }
 jjwt-impl = { module = "io.jsonwebtoken:jjwt-impl", version.ref = "jjwt" }
 
 jjwt-jackson = { module = "io.jsonwebtoken:jjwt-jackson", version.ref = "jjwt" }
+
+# Database Drivers
+
+postgres = { module = "org.postgresql:postgresql" }
+
+mysql = { module = "com.mysql:mysql-connector-j" }
+
+mariadb = { module = "org.mariadb.jdbc:mariadb-java-client" }
+
+oracle = { module = "com.oracle.database.jdbc:ojdbc11" }
+
+sqlserver = { module = "com.microsoft.sqlserver:mssql-jdbc" }
+
+db2 = { module = "com.ibm.db2:jcc" }
+
+sqlite = { module = "org.xerial:sqlite-jdbc" }
+
+h2 = { module = "com.h2database:h2" }
+
+hsqldb = { module = "org.hsqldb:hsqldb" }
+
+derby = { module = "org.apache.derby:derby" }
+
+firebird = { module = "org.firebirdsql.jdbc:jaybird" }
+
+sap-hana = { module = "com.sap.cloud.db.jdbc:ngdbc" }
+
+informix = { module = "com.ibm.informix:jdbc" }
+
+sybase = { module = "net.sourceforge.jtds:jtds" }
+
+spring-jdbc = { module = "org.springframework.boot:spring-boot-starter-jdbc" }
+
+spring-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc" }
+
+spring-elasticsearch = { module = "org.springframework.boot:spring-boot-starter-data-elasticsearch" }
+
+spring-ldap = { module = "org.springframework.boot:spring-boot-starter-data-ldap" }
+
+spring-neo4j = { module = "org.springframework.boot:spring-boot-starter-data-neo4j" }

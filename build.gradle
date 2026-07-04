@@ -69,6 +69,21 @@ dependencies {
 	// implementation libs.jjwt.api
 	// runtimeOnly libs.jjwt.impl
 	// runtimeOnly libs.jjwt.jackson
+
+	// runtimeOnly libs.postgres
+	// runtimeOnly libs.mysql
+	// runtimeOnly libs.mariadb
+	// runtimeOnly libs.oracle
+	// runtimeOnly libs.sqlserver
+	// runtimeOnly libs.db2
+	// runtimeOnly libs.sqlite
+	// runtimeOnly libs.h2
+	// runtimeOnly libs.hsqldb
+	// runtimeOnly libs.derby
+	// runtimeOnly libs.firebird
+	// runtimeOnly libs.sap.hana
+	// runtimeOnly libs.informix
+	// runtimeOnly libs.sybase
 }
 
 tasks.named('test') {
