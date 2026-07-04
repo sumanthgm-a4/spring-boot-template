@@ -61,14 +61,6 @@ spring-cloud-stream-kafka = { module = "org.springframework.cloud:spring-cloud-s
 
 openfeign = { module = "org.springframework.cloud:spring-cloud-starter-openfeign" }
 
-# Database Drivers
-
-postgres = { module = "org.postgresql:postgresql" }
-
-mysql = { module = "com.mysql:mysql-connector-j" }
-
-mariadb = { module = "org.mariadb.jdbc:mariadb-java-client" }
-
 # Documentation
 
 springdoc = { module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "springdoc" }
